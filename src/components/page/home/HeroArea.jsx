@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import lottie from "lottie-web";
+import LottieBanner from "../../common/lottieBanner";
 
 function HeroArea() {
     const scrollTop =()=>window.scrollTo({top:0,behavior:"smooth"})
@@ -8,7 +8,7 @@ function HeroArea() {
     <>
      <section className="hero-area">
         <div className="ken-burns-slideshow">
-          <img src={process.env.PUBLIC_URL + "/img/hero-banner.jpg"} alt="HeroBanner" />
+        <LottieBanner />
         </div>
         <div className="verticale-social">
           <ul className="vertical-media">

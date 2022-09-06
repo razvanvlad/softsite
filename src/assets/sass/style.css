@@ -1250,9 +1250,7 @@ header {
 .hero-area .ken-burns-slideshow {
   position: absolute;
   right: 0;
-  bottom: 0;
   overflow: hidden;
-  width: 50%;
   border-radius: 100px 0px 0px 0px;
 }
 

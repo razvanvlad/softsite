@@ -18,14 +18,15 @@ function HomePageOne() {
         <div className="creasoft-wrap">
             <AnimateLine/>
             <HeroArea/>
+            {/* <PartnarArea/> */}
             <ServiceAreaCopy/>
             <AboutArea image="/img/softsite-logo/softsite-logo-dark.svg"/>
-            <FeaturesArea/>
-              <ProjectWrap/>
-            <PartnarArea/>
+            {/* <FeaturesArea/> */}
+            {/* <ProjectWrap/> */}
+            
             {/* <PriceCardWrap/> */}
             {/* <Testimonial/> */}
-            <TeamWrap/>
+            {/* <TeamWrap/> */}
             {/* <LatesPost/> */}
             {/* <SubscribArea/> */}
         </div>

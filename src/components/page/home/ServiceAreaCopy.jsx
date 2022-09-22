@@ -50,12 +50,12 @@ function ServiceAreaCopy(props) {
             data-wow-duration="1500ms"
           >
             <div className={`${"sec-title"} ${props.white}`}>
-              <span>Servicii SOFTSITE X</span>
-              <h2>Lista Servicii X</h2>
-              <p>
+              <span>Servicii SOFTSITE</span>
+              <h2>Lista Servicii</h2>
+              {/* <p>
               Oferim o gamă completă de servicii IT, noi suntem partenerul firmei tale. Oferim profesionalism
 și seriozitate în orice colaborare. Vă putem dezvolta, automatiza și promova afacerea.
-              </p>
+              </p> */}
             </div>
           </div>
           <Swiper {...serviceSlider} className="swiper services-slider">

@@ -1,28 +1,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import LottieBanner from "../../common/lottieBanner";
+import LottieBannerTest from "../../common/lottieBannerTest";
+import PartnarArea from './PartnarArea'
 
 function HeroArea() {
     const scrollTop =()=>window.scrollTo({top:0,behavior:"smooth"})
   return (
     <>
      <section className="hero-area">
-        <div className="ken-burns-slideshow">
-        <LottieBanner />
-        </div>
-        <div className="verticale-social">
-          <ul className="vertical-media">
-            <li><a href="https://www.facebook.com/softsite.ro">Facebook</a></li>
-            <li><a href="https://www.linkedin.com/in/unlockplatform/">Linkedin</a></li>
-          </ul>
-        </div>
         <div className="hero-wrapper">
           <div className="container">
-            <div className="row">
+            <div className="row"  id="hero-container">
+            <div className="col-lg-6" id="hero-lottie-banner">
+                <LottieBannerTest />
+              </div>
               <div className="col-lg-6">
                 <div className="hero-content">
                   <h1>SOFT-URI &amp; SITE-URI<span>SoftSite.ro</span></h1>
-                  <p>Oferim o gamă completă de servicii IT, noi suntem partenerul firmei tale. Oferim profesionalism și seriozitate în orice colaborare. Vă putem dezvolta, automatiza și promova afacerea.</p>
+                  <p>Oferim o gamă completă de servicii IT. Vă putem dezvolta website-ul de prezentare și vă putem promova afacerea. Lăsați-ne să ne ocupăm de digitalizarea afacerii tale, pentru a le oferi clienților tăi o experiență cât mai plăcută în vederea interacțiunii cu brandul tău.</p>
                   <div className="buttons">
                     <div className="cmn-btn">
                       <div className="line-1" />
@@ -37,8 +33,8 @@ function HeroArea() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6" />
             </div>
+            {/* <PartnarArea/> */}
           </div>
         </div>
       </section>   

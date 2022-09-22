@@ -1030,9 +1030,10 @@ header {
   display: inline-block;
 }
 
-.logo a img {
+/* old logo needed this .css */
+/* .logo a img {
   max-width: 270px;
-}
+} */
 
 @media only screen and (max-width: 1199px) {
   .logo a img {

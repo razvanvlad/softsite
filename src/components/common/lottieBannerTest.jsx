@@ -1,7 +1,6 @@
 import React from 'react';
 import Lottie from "lottie-react";
 import * as animationData from './lottie/softsite-banner-animation4.json';
-import { Autoplay } from 'swiper';
 
 const width_proportion = '75%';
 const height_proportion = '75%';

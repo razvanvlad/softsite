@@ -33,10 +33,10 @@ function HeroArea() {
                   </div>
                 </div>
               </div>
-            </div>
-          <PartnarArea/> 
+            </div>           
           </div>
-        </div>
+          <PartnarArea/>
+        </div>        
       </section>   
     </>
   )

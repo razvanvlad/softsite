@@ -5193,9 +5193,9 @@ background-image: linear-gradient(0deg, rgba(2,127,217,1) 0%, rgba(2,160,208,1) 
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
+  -webkit-box-align: flex-start;
+      -ms-flex-align: flex-start;
+          align-items: flex-start;
   position: relative;
 }
 
@@ -5276,8 +5276,8 @@ background-image: linear-gradient(0deg, rgba(2,127,217,1) 0%, rgba(2,160,208,1) 
 
 @media (max-width: 767px) {
   .counter-boxes {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
+    -webkit-box-align: flex-start;
+        -ms-flex-align: flex-start;
             align-items: flex-start;
   }
 }

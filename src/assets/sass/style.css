@@ -1361,7 +1361,7 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 100vh;
+  height: 112vh;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -2376,11 +2376,12 @@ background-image: linear-gradient(0deg, rgba(2,127,217,1) 0%, rgba(2,160,208,1) 
   padding: 20px 0;
   /* removed background color to keep banner background */
   /* background-color: #191A1C; */
-}
+  }
 
 @media (max-width: 767px) {
   .our-partner {
-    padding: 80px 0;
+    /* padding: 80px 0; */
+    display: none;
   }
 }
 
@@ -2413,6 +2414,22 @@ background-image: linear-gradient(0deg, rgba(2,127,217,1) 0%, rgba(2,160,208,1) 
 
 .our-partner .sec-title .swiper-button-prev-c {
   margin-right: 24px;
+}
+
+.swiper-button-prev-c{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.swiper-button-next-c{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 .single-partner {

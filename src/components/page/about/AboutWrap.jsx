@@ -14,7 +14,7 @@ function AboutWrap() {
       <div className="creasoft-wrap">
         <AnimateLine />
         <WhyChooseUs />
-        <AboutArea image="/img/softsite-logo/softsite-logo-dark.svg"/>
+        <AboutArea image="/img/softsite-logo/logo-black-svg-softsite-left-corner.svg"/>
         <FeaturesArea/>
         <HistoryArea/>
         <Testimonial/>

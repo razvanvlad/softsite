@@ -22,6 +22,9 @@ import MarketingPromovare from "./components/page/ServiceDetails/MarketingPromov
 import DesignGrafic from "./components/page/ServiceDetails/DesignGrafic"; 
 import Gazduire from "./components/page/ServiceDetails/Gazduire";
 import Mentenanta from "./components/page/ServiceDetails/Mentenanta";
+import AutomatizariRpa from "./components/page/ServiceDetails/AutomatizariRpa";
+import AplicatieAndroidIos from "./components/page/ServiceDetails/AplicatieAndroidIos";
+import EchipamenteIt from "./components/page/ServiceDetails/EchipamenteIt";
 import Team from "./components/page/team/Team";
 import "./index.css"
 
@@ -119,7 +122,22 @@ function Root() {
           exact
           path={`${process.env.PUBLIC_URL}/mentenanta-si-suport`}
           component={Mentenanta}
-        />           
+        />
+        <Route
+          exact
+          path={`${process.env.PUBLIC_URL}/automatizari-rpa`}
+          component={AutomatizariRpa}
+        />
+        <Route
+          exact
+          path={`${process.env.PUBLIC_URL}/aplicatie-android-si-ios`}
+          component={AplicatieAndroidIos}
+        />
+        <Route
+          exact
+          path={`${process.env.PUBLIC_URL}/furnizare-echipamente-it`}
+          component={EchipamenteIt}
+        />
         <Route
           exact
           path={`${process.env.PUBLIC_URL}/detalii-proiect`}

@@ -73,22 +73,19 @@ function Footer(props) {
                   <h4>Quick Links</h4>
                   <ul className="footer-menu">
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/about`} onClick={scrollTop}>About Us</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/despre-noi`} onClick={scrollTop}>Despre Noi</Link>
                     </li>
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/service`} onClick={scrollTop}>Services</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/servicii`} onClick={scrollTop}>Servicii</Link>
                     </li>
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/project`} onClick={scrollTop}>Project</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/proiecte`} onClick={scrollTop}>Proiecte</Link>
                     </li>
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/blog`} onClick={scrollTop}>Blog</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/contact`} onClick={scrollTop}>Cariere</Link>
                     </li>
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/contact`} onClick={scrollTop}>Career</Link>
-                    </li>
-                    <li>
-                      <Link to={`${process.env.PUBLIC_URL}/service`} onClick={scrollTop}>Pricing Plan</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/contact`} onClick={scrollTop}>Contact</Link>
                     </li>
                   </ul>
                 </div>
@@ -101,7 +98,7 @@ function Footer(props) {
                       <i className="fas fa-phone-alt" />
                     </div>
                     <div className="phone">
-                      <a href="tel:0040756762169">+40756762169</a>
+                      <a href="tel:0040727999900">+40 727 999 900</a>
                     </div>
                   </div>
                   <div className="office-mail">
@@ -109,7 +106,7 @@ function Footer(props) {
                       <i className="far fa-envelope" />
                     </div>
                     <div className="email">
-                      <a href="mailto:razvanvladpop@gmail.com">razvanvladpop@gmail.com</a>
+                      <a href="mailto:razvan@softsite.ro">razvan@softsite.ro</a>
                     </div>
                   </div>
                   <div className="address">

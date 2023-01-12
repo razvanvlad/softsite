@@ -81,7 +81,7 @@ function Root() {
         />
         <Route
           exact
-          path={`${process.env.PUBLIC_URL}/detalii-serviciu`}
+          path={`${process.env.PUBLIC_URL}/service-details`}
           component={ServiceDetails}
         />
         <Route

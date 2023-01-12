@@ -33,7 +33,7 @@ function ContactWrapper() {
                     </div>
                     <div className="info">
                       <h3>Phone</h3>
-                      <a href="tel:0040756762169">+40756762169</a>
+                      <a href="tel:0040727999900">+40 727 999 900</a>
                     </div>
                   </div>
                   <div className="single-info">
@@ -42,7 +42,7 @@ function ContactWrapper() {
                     </div>
                     <div className="info">
                       <h3>Email</h3>
-                      <a href="mailto:razvanvladpop@gmail.com">razvanvladpop@gmail.com</a>
+                      <a href="mailto:razvan@softsite.ro">razvan@softsite.ro</a>
                     </div>
                   </div>
                 </div>

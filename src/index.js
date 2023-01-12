@@ -15,7 +15,7 @@ import Pricing from "./components/page/pricing/Pricing";
 import Project from "./components/page/project/Project";
 import ProjectDetails from "./components/page/ProjectDetails/ProjectDetails";
 import Service from "./components/page/service/Service";
-import ServiceDetails from "./components/page/ServiceDetails/ServiceDetails";
+import CreareWebsite from "./components/page/ServiceDetails/CreareWebsite";
 import Team from "./components/page/team/Team";
 import "./index.css"
 
@@ -81,8 +81,8 @@ function Root() {
         />
         <Route
           exact
-          path={`${process.env.PUBLIC_URL}/service-details`}
-          component={ServiceDetails}
+          path={`${process.env.PUBLIC_URL}/creare-website`}
+          component={CreareWebsite}
         />
         <Route
           exact

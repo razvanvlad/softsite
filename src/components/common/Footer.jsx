@@ -45,32 +45,41 @@ function Footer(props) {
               </div>
               <div className="col-md-3 col-lg-3 col-xl-3">
                 <div className="footer-widget">
-                  <h4>Our Services</h4>
+                  <h4>Listă Servicii</h4>
                   <ul className="footer-menu">
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>Strategy &amp; Research</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/creare-website`} onClick={scrollTop}>Creare Website</Link>
                     </li>
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>Web Development</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/dezvoltare-software`} onClick={scrollTop}>Dezvoltare Software</Link>
                     </li>
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>Web Solution</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/magazin-online`} onClick={scrollTop}>Magazin Online</Link>
                     </li>
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>Digital Merketing</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/marketing-si-promovare`} onClick={scrollTop}>Marketing și Promovare</Link>
                     </li>
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>App Design</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/gazduire`} onClick={scrollTop}>Găzduire</Link>
                     </li>
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>App Development</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/mentenanta-si-suport`} onClick={scrollTop}>Mentenanță și Suport</Link>
+                    </li>
+                    <li>
+                      <Link to={`${process.env.PUBLIC_URL}/automatizar-rpa`} onClick={scrollTop}>Automatizări RPA</Link>
+                    </li>
+                    <li>
+                      <Link to={`${process.env.PUBLIC_URL}/aplicatie-android-si-ios`} onClick={scrollTop}>Aplicație Android și iOS</Link>
+                    </li>
+                    <li>
+                      <Link to={`${process.env.PUBLIC_URL}/furnizare-echipamente-it`} onClick={scrollTop}>Furnizare Echipamente IT</Link>
                     </li>
                   </ul>
                 </div>
               </div>
               <div className="col-md-3 col-lg-3 col-xl-3">
                 <div className="footer-widget">
-                  <h4>Quick Links</h4>
+                  <h4>Meniu Site</h4>
                   <ul className="footer-menu">
                     <li>
                       <Link to={`${process.env.PUBLIC_URL}/despre-noi`} onClick={scrollTop}>Despre Noi</Link>

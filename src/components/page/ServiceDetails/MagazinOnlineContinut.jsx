@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ProceduraServiciu from "./ProceduraServiciu";
 
-function CreareWebsiteContinut() {
+function MagazinOnlineContinut() {
   const scrollTop =()=>window.scrollTo({top:0,behavior:"smooth"})
   return (
     <>
@@ -19,15 +19,11 @@ function CreareWebsiteContinut() {
                       alt="service icon images"
                     />
                   </i>
-                  Creare Website
+                  Magazin Online
                 </h3>
                 <p>
-                Dacă vrei să îți construiești o prezență online puternică și profesională, atunci serviciul nostru de web design este alegerea perfectă pentru tine. Noi oferim servicii complete de proiectare și dezvoltare de site-uri web, care se potrivesc nevoilor și obiectivelor tale. 
+                Dacă vrei să îți deschizi propria afacere online, avem soluția perfectă pentru tine. Noi oferim servicii complete de creare de magazine online, care îți permit să îți vinzi produsele sau serviciile în mediul online. Indiferent de dimensiunea afacerii tale sau de domeniul în care activezi, putem crea un magazin online personalizat, care se potrivește nevoilor tale. De la proiectarea și dezvoltarea magazinului online până la configurarea procesului de plată și livrare, noi ne asigurăm că ai tot suportul de care ai nevoie pentru a îți face afacerea să exceleze în mediul online. Contactează-ne astăzi pentru a afla cum putem ajuta afacerea ta să își atingă potențialul maxim în mediul online.
                 </p>
-                <p>
-                De la planificarea și proiectarea site-ului până la crearea de conținut și optimizarea pentru motoarele de căutare, noi ne asigurăm că site-ul tău este atractiv, ușor de utilizat și eficient din punct de vedere al afacerii. Contactează-ne astăzi pentru a afla cum putem ajuta afacerea ta să se remarce în mediul online.
-                </p>
-
               </div>
             </div>
             <div className="col-lg-4">
@@ -95,4 +91,4 @@ function CreareWebsiteContinut() {
   );
 }
 
-export default CreareWebsiteContinut;
+export default MagazinOnlineContinut;

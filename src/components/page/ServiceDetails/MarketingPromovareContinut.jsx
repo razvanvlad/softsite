@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ProceduraServiciu from "./ProceduraServiciu";
 
-function CreareWebsiteContinut() {
+function MarketingPromovareContinut() {
   const scrollTop =()=>window.scrollTo({top:0,behavior:"smooth"})
   return (
     <>
@@ -22,10 +22,7 @@ function CreareWebsiteContinut() {
                   Creare Website
                 </h3>
                 <p>
-                Dacă vrei să îți construiești o prezență online puternică și profesională, atunci serviciul nostru de web design este alegerea perfectă pentru tine. Noi oferim servicii complete de proiectare și dezvoltare de site-uri web, care se potrivesc nevoilor și obiectivelor tale. 
-                </p>
-                <p>
-                De la planificarea și proiectarea site-ului până la crearea de conținut și optimizarea pentru motoarele de căutare, noi ne asigurăm că site-ul tău este atractiv, ușor de utilizat și eficient din punct de vedere al afacerii. Contactează-ne astăzi pentru a afla cum putem ajuta afacerea ta să se remarce în mediul online.
+                Vrei să îți dezvolți afacerea prin intermediul canalelor digitale? Noi avem soluția perfectă pentru tine. Oferim servicii de marketing digital care te vor ajuta să îți atragi și să îți menții clienții prin intermediul site-urilor de social media, e-mail marketing și publicitate online. Indiferent de dimensiunea afacerii tale sau de obiectivele tale de afaceri, ne asigurăm că îți oferim o campanie de marketing digital care se potrivește.
                 </p>
 
               </div>
@@ -95,4 +92,4 @@ function CreareWebsiteContinut() {
   );
 }
 
-export default CreareWebsiteContinut;
+export default MarketingPromovareContinut;

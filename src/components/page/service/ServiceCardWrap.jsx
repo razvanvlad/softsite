@@ -29,7 +29,7 @@ function ServiceCardWrap() {
               <ServiceCard serviceNumber={4} image="/img/icons/service-icon-4.png" title="Marketing și Promovare" details="Ne concentram pe o abordare strategica de marketing, care include analiza pietei, definirea obiectivelor si crearea unui plan de actiune pentru a atinge aceste obiective. Oferim servicii precum optimizare SEO, publicitate online, marketing prin e-mail si social media marketing." alt="marketing-si-promovare"/>
           </div>
           <div class="col-md-6 col-lg-4 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-              <ServiceCard serviceNumber={5} image="/img/icons/service-icon-5.png" title="Graphic Design" details="Design grafic de calitate, care ajuta clientii nostri sa-si promoveze afacerile prin intermediul materialelor de marketing de inalta calitate.  Oferim servicii precum design de afise, pliante, brosuri, afise publicitare si multe altele." alt="graphic-design"/>
+              <ServiceCard serviceNumber={5} image="/img/icons/service-icon-5.png" title="Design Grafic" details="Design grafic de calitate, care ajuta clientii nostri sa-si promoveze afacerile prin intermediul materialelor de marketing de inalta calitate.  Oferim servicii precum design de afise, pliante, brosuri, afise publicitare si multe altele." alt="design-grafic"/>
           </div>
           <div class="col-md-6 col-lg-4 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
               <ServiceCard serviceNumber={6} image="/img/icons/service-icon-6.png" title="Găzduire" details="Oferim servicii de gazduire stabile, rapide si sigure, astfel incat clientii nostri sa poata avea un site web care functioneaza optim." alt="gazduire"/>

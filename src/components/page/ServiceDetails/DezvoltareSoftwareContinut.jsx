@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ProceduraServiciu from "./ProceduraServiciu";
 
-function CreareWebsiteContinut() {
+function DezvoltareSoftwareContinut() {
   const scrollTop =()=>window.scrollTo({top:0,behavior:"smooth"})
   return (
     <>
@@ -19,13 +19,15 @@ function CreareWebsiteContinut() {
                       alt="service icon images"
                     />
                   </i>
-                  Creare Website
+                  Dezvoltare Software
                 </h3>
                 <p>
-                Dacă vrei să îți construiești o prezență online puternică și profesională, atunci serviciul nostru de web design este alegerea perfectă pentru tine. Noi oferim servicii complete de proiectare și dezvoltare de site-uri web, care se potrivesc nevoilor și obiectivelor tale. 
+                Vrei să îți îmbunătățești procesele de afaceri prin intermediul software-ului de top? 
+                <br></br>
+                Noi avem soluția perfectă pentru tine. Oferta noastră include o gamă completă de software de gestionare a afacerilor, inclusiv soluții CRM și ERP, care îți permit să îți gestionezi afacerea eficient și să îți îmbunătățești productivitatea. 
                 </p>
                 <p>
-                De la planificarea și proiectarea site-ului până la crearea de conținut și optimizarea pentru motoarele de căutare, noi ne asigurăm că site-ul tău este atractiv, ușor de utilizat și eficient din punct de vedere al afacerii. Contactează-ne astăzi pentru a afla cum putem ajuta afacerea ta să se remarce în mediul online.
+                Indiferent de dimensiunea afacerii tale sau de domeniul în care activezi, ne asigurăm că îți oferim o soluție software care se potrivește nevoilor tale.
                 </p>
 
               </div>
@@ -95,4 +97,4 @@ function CreareWebsiteContinut() {
   );
 }
 
-export default CreareWebsiteContinut;
+export default DezvoltareSoftwareContinut;

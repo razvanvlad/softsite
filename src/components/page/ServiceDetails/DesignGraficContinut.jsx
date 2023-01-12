@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ProceduraServiciu from "./ProceduraServiciu";
 
-function CreareWebsiteContinut() {
+function DesignGraficContinut() {
   const scrollTop =()=>window.scrollTo({top:0,behavior:"smooth"})
   return (
     <>
@@ -19,15 +19,11 @@ function CreareWebsiteContinut() {
                       alt="service icon images"
                     />
                   </i>
-                  Creare Website
+                  Design Grafic
                 </h3>
                 <p>
-                Dacă vrei să îți construiești o prezență online puternică și profesională, atunci serviciul nostru de web design este alegerea perfectă pentru tine. Noi oferim servicii complete de proiectare și dezvoltare de site-uri web, care se potrivesc nevoilor și obiectivelor tale. 
+                Oferim servicii de design grafic de calitate, care ajuta clientii nostri sa-si promoveze afacerile prin intermediul materialelor de marketing de inalta calitate. Ne concentram pe intelegerea nevoilor fiecarui client si pe crearea de materiale de marketing care se potrivesc obiectivelor lor. Oferim servicii precum design de afise, pliante, brosuri, afise publicitare si multe altele. Suntem de asemenea dispusi sa cream materiale personalizate pentru fiecare client, in functie de nevoile si obiectivele lor. Oferim informatii clare si concise, astfel incat orice client care intra pentru prima data pe site-ul nostru sa inteleaga rapid beneficiile pe care le pot obtine prin intermediul serviciilor noastre de design grafic.
                 </p>
-                <p>
-                De la planificarea și proiectarea site-ului până la crearea de conținut și optimizarea pentru motoarele de căutare, noi ne asigurăm că site-ul tău este atractiv, ușor de utilizat și eficient din punct de vedere al afacerii. Contactează-ne astăzi pentru a afla cum putem ajuta afacerea ta să se remarce în mediul online.
-                </p>
-
               </div>
             </div>
             <div className="col-lg-4">
@@ -95,4 +91,4 @@ function CreareWebsiteContinut() {
   );
 }
 
-export default CreareWebsiteContinut;
+export default DesignGraficContinut;

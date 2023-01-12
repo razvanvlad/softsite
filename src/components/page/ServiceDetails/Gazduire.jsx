@@ -2,19 +2,19 @@ import React from 'react'
 import AnimateLine from '../../common/AnimateLine'
 import Breadcrumb from '../../common/Breadcrumb'
 import SubscribArea from '../../common/SubscribArea'
-import CreareWebsiteContinut from './CreareWebsiteContinut'
+import GazduireContinut from './GazduireContinut'
 
-function CreareWebsite() {
+function Gazduire() {
   return (
     <>
         <div className="creasoft-wrap">
           <AnimateLine/>
-          <Breadcrumb pageName="Creare Website" pageTitle="Creare Website"/>
-          <CreareWebsiteContinut/>
+          <Breadcrumb pageName="Gazduire" pageTitle="Gazduire"/>
+          <GazduireContinut/>
           <SubscribArea/>
         </div>
     </>
   )
 }
 
-export default CreareWebsite
+export default Gazduire

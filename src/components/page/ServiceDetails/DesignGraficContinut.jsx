@@ -12,7 +12,7 @@ function DesignGraficContinut() {
           <div className="row">
             <div className="col-lg-8">
               <div className="service-details-content">
-                <img src={process.env.PUBLIC_URL + '/img/blog/blog-thumnail.jpg'} alt="images service" />
+                {/* <img src={process.env.PUBLIC_URL + '/img/blog/blog-thumnail.jpg'} alt="images service" /> */}
                 <h3>
                   <i>
                     <img

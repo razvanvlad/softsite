@@ -300,14 +300,13 @@ function Header() {
         
         <div className="nav-right">
           <div className="get-qoute">
-            <div className="cmn-btn">
+            <div className="cmn-btn layout-two">
               <div className="line-1" />
               <div className="line-2" />
               <Link
                 to={`${process.env.PUBLIC_URL}/contact`}
-                onClick={scrollTop}
-              >
-                Cerere Ofertă
+                onClick={scrollTop}              >
+                Ofertă Pachetul Digital
               </Link>
             </div>
           </div>

@@ -23,19 +23,18 @@ function HeroArea() {
                     <div className="cmn-btn">
                       <div className="line-1" />
                       <div className="line-2" />
-                      <Link to={`${process.env.PUBLIC_URL}/despre-noi`} onClick={scrollTop}>Despre Noi</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/proiecte`} onClick={scrollTop}>Vezi Portofoliu</Link>
                     </div>
-                    <div className="cmn-btn layout-two">
+                    <div className="cmn-btn">
                       <div className="line-1" />
                       <div className="line-2" />
-                      <Link to={`${process.env.PUBLIC_URL}/proiecte`} onClick={scrollTop}>Listă Proiecte</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/contact`} onClick={scrollTop}>Cere o ofertă</Link>
                     </div>
                   </div>
                 </div>
               </div>
             </div>           
           </div>
-          <PartnarArea/>
         </div>        
       </section>   
     </>

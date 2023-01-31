@@ -701,8 +701,30 @@ background-image: linear-gradient(0deg, rgba(2,127,217,1) 0%, rgba(2,160,208,1) 
   height: 150%;
   width: 150%;
   bottom: 0;
+  /* background-color: #07d259; */
   background: rgb(2,127,217);
   background: linear-gradient(0deg, rgba(2,127,217,1) 0%, rgba(2,160,208,1) 50%, rgba(7,210,190,1) 100%);
+  -webkit-transform: skewX(45deg) scale(0, 1);
+          transform: skewX(45deg) scale(0, 1);
+  z-index: -1;
+  -webkit-transition: all 0.8s ease-out 0s;
+  transition: all 0.8s ease-out 0s;
+}
+
+/* style doar pt call to action */
+.cmn-btn3 a:after {
+  position: absolute;
+  content: "";
+  display: block;
+  left: 15%;
+  right: -20%;
+  top: -4%;
+  height: 150%;
+  width: 150%;
+  bottom: 0;
+  background-color: #07d259;
+  /* background: rgb(2,127,217);
+  background: linear-gradient(0deg, rgba(2,127,217,1) 0%, rgba(2,160,208,1) 50%, rgba(7,210,190,1) 100%); */
   -webkit-transform: skewX(45deg) scale(0, 1);
           transform: skewX(45deg) scale(0, 1);
   z-index: -1;
@@ -729,7 +751,7 @@ background-image: linear-gradient(0deg, rgba(2,127,217,1) 0%, rgba(2,160,208,1) 
 .cmn-btn .line-1:before {
   position: absolute;
   content: "";
-  border: 1px solid #FFFFFF;
+  border: 1px solid #1DEEA8;
   width: 25px;
   opacity: 0.1;
   right: 0;
@@ -740,7 +762,7 @@ background-image: linear-gradient(0deg, rgba(2,127,217,1) 0%, rgba(2,160,208,1) 
 .cmn-btn .line-1:after {
   position: absolute;
   content: "";
-  border: 1px solid #FFFFFF;
+  border: 1px solid #1DEEA8;
   height: 25px;
   opacity: 0.1;
   -webkit-transition: all 0.8s ease-out 0s;
@@ -1520,7 +1542,7 @@ header {
 
 .cmn-btn.layout-two a {
   background-color: transparent;
-  border: 1px solid #E4E4E4;
+  border: 1px solid #07d259;
 }
 
 .verticale-social {

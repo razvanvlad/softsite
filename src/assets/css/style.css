@@ -411,7 +411,7 @@ video {
     .cmn-btn .line-1:before {
       position: absolute;
       content: "";
-      border: 1px solid #FFFFFF;
+      border: 1px solid #1DEEA8;
       width: 25px;
       opacity: 0.1;
       right: 0;
@@ -423,7 +423,7 @@ video {
     .cmn-btn .line-1:after {
       position: absolute;
       content: "";
-      border: 1px solid #FFFFFF;
+      border: 1px solid #1DEEA8;
       height: 25px;
       opacity: 0.1;
       -webkit-transition: all 0.8s ease-out 0s;
@@ -952,7 +952,7 @@ header {
       margin: 0; }
 
 .cmn-btn.layout-two a {
-  background-color: transparent;
+  background-color: #1DEEA8;
   border: 1px solid #E4E4E4; }
 
 .verticale-social {

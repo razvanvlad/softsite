@@ -124,6 +124,16 @@ function Footer(props) {
                     </div>
                     <p>Strada Nouă 21-25, Nr. 2, Apahida, CJ, România</p>
                   </div>
+                  <div className="address2">
+                    <div className="address-icon2">                      
+                    </div>                        
+                     <a target="_blank" href="https://anpc.ro/ce-este-sal/"><img src={process.env.PUBLIC_URL + '/img/logo-anpc/placheta_litigii.svg'}  alt="logo-anpc-img" />  </a>
+                  </div>
+                  <div className="address2">
+                    <div className="address-icon2">                      
+                    </div>                        
+                     <a target="_blank" href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=RO"><img src={process.env.PUBLIC_URL + '/img/logo-anpc/placheta_sal.svg'} href="" alt="logo-sal-img" />  </a>
+                  </div>
                 </div>
               </div>
             </div>

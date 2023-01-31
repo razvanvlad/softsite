@@ -1,6 +1,8 @@
 import React, { useEffect, useReducer, useRef, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import WOW from "wowjs";
+import LottieHeaderAction from "../../components/common/lottie/header-circle-action.json";
+
 function Header() {
   const [sidebar, setSidebar] = useState(false);
   const [isSticky, setSticky] = useState(false);
@@ -73,7 +75,7 @@ function Header() {
               />
             </Link>
           </div>
-        </div>
+        </div>        
         <div className="main-menu">
           <nav className={sidebar === 1 ? "main-nav slidenav" : "main-nav"}>
             <div className="mobile-menu-logo">
@@ -98,32 +100,6 @@ function Header() {
                 >
                   Acasă
                 </Link>
-                {/* <i className="bi bi-chevron-down" /> */}
-                {/* <ul
-                  className={
-                    state.activeMenu === "homeOne"
-                      ? "sub-menu d-block"
-                      : "sub-menu d-none"
-                  }
-                >
-                  <li>
-                    <NavLink
-                      to={"/"}
-                      onClick={scrollTop}
-                      className={state.activeMenu === "homeOne" ? "active" : ""}
-                    >
-                      Home 01
-                    </NavLink>
-                  </li>
-                  { <li>
-                    <NavLink
-                      to={`${process.env.PUBLIC_URL}/index2`}
-                      onClick={scrollTop}
-                    >
-                      Home 02
-                    </NavLink>
-                  </li> }
-                </ul> */}
               </li>
 
               <li>
@@ -134,19 +110,6 @@ function Header() {
                   Despre Noi
                 </NavLink>
               </li>
-
-              {/* <li>
-                <Link to={"#"} onClick={() => dispatch({ type: "service" })}>
-                  Service
-                </Link>
-                <i className="bi bi-chevron-down" />
-                <ul
-                  className={
-                    state.activeMenu === "service"
-                      ? "sub-menu d-block"
-                      : "sub-menu d-none"
-                  }
-                > */}
                   <li>
                     <NavLink
                       to={`${process.env.PUBLIC_URL}/servicii`}
@@ -155,28 +118,6 @@ function Header() {
                       Servicii
                     </NavLink>
                   </li>
-                  {/* <li>
-                    <NavLink
-                      to={`${process.env.PUBLIC_URL}/service-details`}
-                      onClick={scrollTop}
-                    >
-                      Service Details
-                    </NavLink>
-                  </li> */}
-                {/* </ul> */}
-              {/* </li> */}
-              {/* <li>
-                <Link to={"#"} onClick={() => dispatch({ type: "project" })}>
-                  Project
-                </Link>
-                <i className="bi bi-chevron-down" />
-                <ul
-                  className={
-                    state.activeMenu === "project"
-                      ? "sub-menu d-block"
-                      : "sub-menu d-none"
-                  }
-                > */}
                   <li>
                     <NavLink
                       to={`${process.env.PUBLIC_URL}/proiecte`}
@@ -185,100 +126,6 @@ function Header() {
                       Proiecte
                     </NavLink>
                   </li>
-                  {/* <li>
-                    <NavLink
-                      to={`${process.env.PUBLIC_URL}/detalii-proiect`}
-                      onClick={scrollTop}
-                    >
-                      Detalii Proiect
-                    </NavLink>
-                  </li> */}
-                {/* </ul>
-              </li> */}
-              {/* <li className="has-child">
-                <Link to={"#"} onClick={() => dispatch({ type: "blog" })}>
-                  Articole
-                </Link>
-                <i className="bi bi-chevron-down" />
-                <ul
-                  className={
-                    state.activeMenu === "blog"
-                      ? "sub-menu d-block"
-                      : "sub-menu d-none"
-                  }
-                >
-                  <li>
-                    <NavLink
-                      to={`${process.env.PUBLIC_URL}/articole`}
-                      onClick={scrollTop}
-                    >
-                      Articole
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to={`${process.env.PUBLIC_URL}/articole-standard`}
-                      onClick={scrollTop}
-                    >
-                      Articole Standard
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to={`${process.env.PUBLIC_URL}/detalii-articol`}
-                      onClick={scrollTop}
-                    >
-                      Detalii Articol
-                    </NavLink>
-                  </li>
-                </ul>
-              </li> */}
-              {/* <li className="has-child">
-                <Link to={"#"} onClick={() => dispatch({ type: "page" })}>
-                  Pages
-                </Link>
-                <i className="bi bi-chevron-down" />
-                <ul
-                  className={
-                    state.activeMenu === "page"
-                      ? "sub-menu d-block"
-                      : "sub-menu d-none"
-                  }
-                >
-                  <li>
-                    <NavLink
-                      to={`${process.env.PUBLIC_URL}/echipa`}
-                      onClick={scrollTop}
-                    >
-                      Echipa
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to={`${process.env.PUBLIC_URL}/preturi`}
-                      onClick={scrollTop}
-                    >
-                      Prețuri
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to={`${process.env.PUBLIC_URL}/intrebari`}
-                      onClick={scrollTop}
-                    >
-                      Întrebări
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to={`${process.env.PUBLIC_URL}/eroare`}
-                      onClick={scrollTop}
-                    >
-                      Eroare 404
-                    </NavLink>
-                  </li>
-                </ul>
-              </li> */}
               <li>
                 <NavLink
                   to={`${process.env.PUBLIC_URL}/contact`}
@@ -306,7 +153,8 @@ function Header() {
               <Link
                 to={`${process.env.PUBLIC_URL}/contact`}
                 onClick={scrollTop}              >
-                Ofertă Pachetul Digital
+                
+                Ofertă Pachetul Digital          
               </Link>
             </div>
           </div>

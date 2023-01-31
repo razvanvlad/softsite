@@ -1606,6 +1606,27 @@ header {
   margin-top: 20;
 }
 
+#lottie-action-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+/* added negative margine to lottie icon */
+#lottie-action{
+  display: flex;
+  height: 50px;
+  width: 50px;
+  margin-top: -13px;
+  margin-bottom: -13px;
+  margin-left: -13px;
+  align-self: flex-start;
+}
+
+#lottie-action-text{
+  display:flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
 
 
 /* The typing effect */

@@ -27,18 +27,6 @@ function AboutArea(props) {
 
                   <h4>Câștigător Start-UP Nation, COD CAEN 6201 <span>Ediția 2017.</span></h4>
                 </div>
-                {/*  */}
-                <div className={`${"company-since"} ${props.layoutClass}`}>
-                  {/* <div className="company-logo">
-                    <img src={`${process.env.PUBLIC_URL} ${props.image}`} alt="about-images" />
-                  </div> */}
-                  {/* <strong>#3316</strong> */}
-                  
-                  {/* <a target="_blank" href="https://www.startupcafe.ro/finantari/start-nation-lista-rezultate.htm"><strong>#3316</strong></a>
-
-                  <h4>Câștigător Start-UP Nation, COD CAEN 6201 <span>Ediția x.</span></h4> */}
-                </div>
-                {/*  */}
               </div>
             </div>
             <div className="col-lg-6 or-1 wow animate fadeIn" data-wow-delay="200ms" data-wow-duration="1500ms">

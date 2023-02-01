@@ -1,4 +1,5 @@
 import React from "react";
+import ContactForm from '../contact/ContactForm';
 
 function PachetDigitalContinut() {
   return (
@@ -9,83 +10,56 @@ function PachetDigitalContinut() {
             <div className="col-lg-4">
               <div className="sidebar-tab">
                 <div className="tabs">
-                  <a href="#progress-tab" className="tab-link active">
-                    Progress
+                  <a href="#ce-este-tab" className="tab-link active">
+                  Ce este pachetul digital?
                   </a>
-                  <a href="#payment-tab" className="tab-link">
-                    Payment
+                  <a href="#cheltuieli-tab" className="tab-link">
+                  Cheltuieli eligibile?
                   </a>
-                  <a href="#support-tab" className="tab-link">
-                    Support
+                  <a href="#oferim-tab" className="tab-link">
+                  Ce vă putem oferii?
                   </a>
                 </div>
               </div>
               <div className="sidebar-tab">
                 <div className="questions-form">
-                  <h4>HAVE QUESTION?</h4>
-                  <form
-                    onSubmit={(e) => e.preventDefault()}
-                    action="#"
-                    method="post"
-                  >
-                    <input type="text" name="name" placeholder="Your Name :" />
-                    <input
-                      type="email"
-                      name="email"
-                      placeholder="Your Email :"
-                    />
-                    <input
-                      type="text"
-                      name="number"
-                      placeholder="Phone Number :"
-                    />
-                    <input type="text" name="subject" placeholder="Subject :" />
-                    <textarea
-                      name="message"
-                      cols={30}
-                      rows={10}
-                      placeholder="Write Message :"
-                      defaultValue={""}
-                    />
-                    <input type="submit" defaultValue="send now" />
-                  </form>
+                  <h4>Dorești oferta Softsite?</h4>
+                  <ContactForm />
                 </div>
               </div>
             </div>
             <div className="col-lg-8">
               <div className="faqs-tabs">
-                <div className="faqs" id="progress-tab">
-                  <h4>Progress</h4>
-                  <div className="accordion" id="accordionOne">
+                <div className="faqs" id="ce-este-tab">
+                  <h4>Ce este pachetul de digitalizare Start Up Nation 2022?</h4>
+                  <p>În România, contextul competitivității digitale este precar, iar pentru a stimula procesul de digitalizare în mediul de afaceri și pentru a sprijini dezvoltarea întreprinderilor mici și mijlocii, s-a lansat programul Start-Up Nation.</p>
+                  <br></br>
+                  <p>Programul oferă posibilitatea de a obține finanțare, însă cu o condiție obligatorie - achiziționarea unui voucher de digitalizare, cunoscut sub numele de pachet digital. Valoarea minimă a acestui voucher este de 25.000 de lei cu TVA inclus pentru firmele neplătitoare de TVA și 25.000 de lei + TVA pentru firmele plătitoare de TVA.</p>
+                </div>
+                <div className="faqs" id="cheltuieli-tab">
+                  <h4>Care sunt serviciile si produsele eligibile?</h4>
+                  <div className="accordion" id="accordionTwo">
                     <div className="accordion-item">
                       <span className="accordion-header" id="heading1">
                         <button
-                          className="accordion-button"
+                          className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#collapse1"
-                          aria-expanded="true"
+                          aria-expanded="false"
                           aria-controls="collapse1"
                         >
-                          01. Curious about how to build your own UX strategy?
-                          Here are.
+                          01. Diverse echipamente IT
                         </button>
                       </span>
                       <div
                         id="collapse1"
-                        className="accordion-collapse collapse show"
+                        className="accordion-collapse collapse"
                         aria-labelledby="heading1"
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus odiopl
-                          himenaeos. Praesent nec neque at dolor venenatis
-                          consectetur eu quis ex. the Donec lacinia andal
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsum. sovo Praesent
-                          commodo at massa eget suscipit. Utani vitae enim
-                          velit.
+                        Diverse echipamente IT
                         </div>
                       </div>
                     </div>
@@ -99,8 +73,7 @@ function PachetDigitalContinut() {
                           aria-expanded="false"
                           aria-controls="collapse2"
                         >
-                          02. Where Could a Career in UX Take You? Agency vs.
-                          In-House vs?
+                          02. Software și licențe necesare
                         </button>
                       </span>
                       <div
@@ -112,17 +85,11 @@ function PachetDigitalContinut() {
                         <div className="accordion-body">
                           Aptent taciti sociosqu ad litora torquent per conubia
                           nostra, per inceptos only Integer purus odiopl
-                          himenaeos. Praesent nec neque at dolor venenatis
-                          consectetur eu quis ex. the Donec lacinia andal
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsum. sovo Praesent
-                          commodo at massa eget suscipit. Utani vitae enim
                           velit.
                         </div>
                       </div>
-                    </div>
-                    <div className="accordion-item">
-                      <span className="accordion-header" id="heading3">
+                      <div className="accordion-item">
+                      <span className="accordion-header" id="heading93">
                         <button
                           className="accordion-button collapsed"
                           type="button"
@@ -131,8 +98,7 @@ function PachetDigitalContinut() {
                           aria-expanded="false"
                           aria-controls="collapse3"
                         >
-                          03. What Is a Problem Statement in UX? (And How To
-                          Write One)?
+                          03. Site-uri de prezentare sau magazin on-line
                         </button>
                       </span>
                       <div
@@ -142,14 +108,7 @@ function PachetDigitalContinut() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus odiopl
-                          himenaeos. Praesent nec neque at dolor venenatis
-                          consectetur eu quis ex. the Donec lacinia andal
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsum. sovo Praesent
-                          commodo at massa eget suscipit. Utani vitae enim
-                          velit.
+                          03. Site-uri de prezentare sau magazin on-line
                         </div>
                       </div>
                     </div>
@@ -163,8 +122,7 @@ function PachetDigitalContinut() {
                           aria-expanded="false"
                           aria-controls="collapse4"
                         >
-                          04. There are several techniques UX designers employ
-                          to arrive at a?
+                          04. Semnătura electronică
                         </button>
                       </span>
                       <div
@@ -174,14 +132,7 @@ function PachetDigitalContinut() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus odiopl
-                          himenaeos. Praesent nec neque at dolor venenatis
-                          consectetur eu quis ex. the Donec lacinia andal
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsum. sovo Praesent
-                          commodo at massa eget suscipit. Utani vitae enim
-                          velit.
+                          04. Semnătura electronică
                         </div>
                       </div>
                     </div>
@@ -195,8 +146,7 @@ function PachetDigitalContinut() {
                           aria-expanded="false"
                           aria-controls="collapse5"
                         >
-                          05. What are the obstacles users are facing? What are
-                          they trying to?
+                          05. Servicii de marketing
                         </button>
                       </span>
                       <div
@@ -206,232 +156,35 @@ function PachetDigitalContinut() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus odiopl
-                          himenaeos. Praesent nec neque at dolor venenatis
-                          consectetur eu quis ex. the Donec lacinia andal
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsum. sovo Praesent
-                          commodo at massa eget suscipit. Utani vitae enim
-                          velit.
+                        05. Servicii de marketing
                         </div>
                       </div>
                     </div>
-                    <div className="accordion-item">
-                      <span className="accordion-header" id="heading6">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse6"
-                          aria-expanded="false"
-                          aria-controls="collapse6"
-                        >
-                          06. Why is this important? Why will users benefit from
-                          solving this?
-                        </button>
-                      </span>
-                      <div
-                        id="collapse6"
-                        className="accordion-collapse collapse"
-                        aria-labelledby="heading6"
-                        data-bs-parent="#accordionExample"
-                      >
-                        <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus odiopl
-                          himenaeos. Praesent nec neque at dolor venenatis
-                          consectetur eu quis ex. the Donec lacinia andal
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsum. sovo Praesent
-                          commodo at massa eget suscipit. Utani vitae enim
-                          velit.
-                        </div>
-                      </div>
+
                     </div>
                   </div>
                 </div>
-                <div className="faqs" id="payment-tab">
-                  <h4>Payment</h4>
-                  <div className="accordion" id="accordionTwo">
-                    <div className="accordion-item">
-                      <span className="accordion-header" id="heading7">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse7"
-                          aria-expanded="false"
-                          aria-controls="collapse7"
-                        >
-                          01. Aliquam ligula nunc, vehicula at est quis, aliquet
-                          facilisis erat?
-                        </button>
-                      </span>
-                      <div
-                        id="collapse7"
-                        className="accordion-collapse collapse"
-                        aria-labelledby="heading7"
-                        data-bs-parent="#accordionExample"
-                      >
-                        <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus odiopl
-                          himenaeos. Praesent nec neque at dolor venenatis
-                          consectetur eu quis ex. the Donec lacinia andal
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsum. sovo Praesent
-                          commodo at massa eget suscipit. Utani vitae enim
-                          velit.
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <span className="accordion-header" id="heading8">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse8"
-                          aria-expanded="false"
-                          aria-controls="collapse8"
-                        >
-                          02. In hac habitasse platea dictumst Cras leo erat,
-                          laoreet vitae dictum?
-                        </button>
-                      </span>
-                      <div
-                        id="collapse8"
-                        className="accordion-collapse collapse"
-                        aria-labelledby="heading8"
-                        data-bs-parent="#accordionExample"
-                      >
-                        <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus odiopl
-                          himenaeos. Praesent nec neque at dolor venenatis
-                          consectetur eu quis ex. the Donec lacinia andal
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsum. sovo Praesent
-                          commodo at massa eget suscipit. Utani vitae enim
-                          velit.
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <span className="accordion-header" id="heading9">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse9"
-                          aria-expanded="false"
-                          aria-controls="collapse9"
-                        >
-                          03. ornare iaculis tellus. Phasellus venenatis vel
-                          ligula vitae dictum?
-                        </button>
-                      </span>
-                      <div
-                        id="collapse9"
-                        className="accordion-collapse collapse"
-                        aria-labelledby="heading9"
-                        data-bs-parent="#accordionExample"
-                      >
-                        <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus odiopl
-                          himenaeos. Praesent nec neque at dolor venenatis
-                          consectetur eu quis ex. the Donec lacinia andal
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsum. sovo Praesent
-                          commodo at massa eget suscipit. Utani vitae enim
-                          velit.
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <span className="accordion-header" id="heading10">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse10"
-                          aria-expanded="false"
-                          aria-controls="collapse10"
-                        >
-                          04. Phasellus a placerat eros In hac habitasse platea
-                          dictumst Fusce ac?
-                        </button>
-                      </span>
-                      <div
-                        id="collapse10"
-                        className="accordion-collapse collapse"
-                        aria-labelledby="heading10"
-                        data-bs-parent="#accordionExample"
-                      >
-                        <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus odiopl
-                          himenaeos. Praesent nec neque at dolor venenatis
-                          consectetur eu quis ex. the Donec lacinia andal
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsum. sovo Praesent
-                          commodo at massa eget suscipit. Utani vitae enim
-                          velit.
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <span className="accordion-header" id="heading11">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse11"
-                          aria-expanded="false"
-                          aria-controls="collapse11"
-                        >
-                          05. sagittis risus In porta augue tortor eu
-                          condimentum arcu iaculis vel?
-                        </button>
-                      </span>
-                      <div
-                        id="collapse11"
-                        className="accordion-collapse collapse"
-                        aria-labelledby="heading11"
-                        data-bs-parent="#accordionExample"
-                      >
-                        <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus odiopl
-                          himenaeos. Praesent nec neque at dolor venenatis
-                          consectetur eu quis ex. the Donec lacinia andal
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsum. sovo Praesent
-                          commodo at massa eget suscipit. Utani vitae enim
-                          velit.
-                        </div>
-                      </div>
-                    </div>
+                <div className="faqs" id="oferim-tab">
+                  <h4>Serviciile oferite de Softsite</h4>
+                  <div className="accordion" id="accordionThree">
                     <div className="accordion-item">
                       <span className="accordion-header" id="heading12">
                         <button
                           className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse12"
+                          data-bs-target="#collapse13"
                           aria-expanded="false"
-                          aria-controls="collapse12"
+                          aria-controls="collapse13"
                         >
-                          06. tristique suscipit mi vitae rutrum. Ut auctor
-                          rutrum fringilla?
+                          01. Curious about how to build your own UX strategy?
+                          Here are.
                         </button>
                       </span>
                       <div
-                        id="collapse12"
+                        id="collapse13"
                         className="accordion-collapse collapse"
-                        aria-labelledby="heading12"
+                        aria-labelledby="heading13"
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
@@ -446,11 +199,6 @@ function PachetDigitalContinut() {
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-                <div className="faqs" id="support-tab">
-                  <h4>Support</h4>
-                  <div className="accordion" id="accordionThree">
                     <div className="accordion-item">
                       <span className="accordion-header" id="heading13">
                         <button
@@ -483,166 +231,7 @@ function PachetDigitalContinut() {
                         </div>
                       </div>
                     </div>
-                    <div className="accordion-item">
-                      <span className="accordion-header" id="heading14">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse14"
-                          aria-expanded="false"
-                          aria-controls="collapse14"
-                        >
-                          02. Where Could a Career in UX Take You? Agency vs.
-                          In-House vs?
-                        </button>
-                      </span>
-                      <div
-                        id="collapse14"
-                        className="accordion-collapse collapse"
-                        aria-labelledby="heading14"
-                        data-bs-parent="#accordionExample"
-                      >
-                        <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus odiopl
-                          himenaeos. Praesent nec neque at dolor venenatis
-                          consectetur eu quis ex. the Donec lacinia andal
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsum. sovo Praesent
-                          commodo at massa eget suscipit. Utani vitae enim
-                          velit.
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <span className="accordion-header" id="heading15">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse15"
-                          aria-expanded="false"
-                          aria-controls="collapse15"
-                        >
-                          03. What Is a Problem Statement in UX? (And How To
-                          Write One)?
-                        </button>
-                      </span>
-                      <div
-                        id="collapse15"
-                        className="accordion-collapse collapse"
-                        aria-labelledby="heading15"
-                        data-bs-parent="#accordionExample"
-                      >
-                        <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus odiopl
-                          himenaeos. Praesent nec neque at dolor venenatis
-                          consectetur eu quis ex. the Donec lacinia andal
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsum. sovo Praesent
-                          commodo at massa eget suscipit. Utani vitae enim
-                          velit.
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <span className="accordion-header" id="heading16">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse16"
-                          aria-expanded="false"
-                          aria-controls="collapse16"
-                        >
-                          04. There are several techniques UX designers employ
-                          to arrive at a?
-                        </button>
-                      </span>
-                      <div
-                        id="collapse16"
-                        className="accordion-collapse collapse"
-                        aria-labelledby="heading16"
-                        data-bs-parent="#accordionExample"
-                      >
-                        <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus odiopl
-                          himenaeos. Praesent nec neque at dolor venenatis
-                          consectetur eu quis ex. the Donec lacinia andal
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsum. sovo Praesent
-                          commodo at massa eget suscipit. Utani vitae enim
-                          velit.
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <span className="accordion-header" id="heading17">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse17"
-                          aria-expanded="false"
-                          aria-controls="collapse17"
-                        >
-                          05. What are the obstacles users are facing? What are
-                          they trying to?
-                        </button>
-                      </span>
-                      <div
-                        id="collapse17"
-                        className="accordion-collapse collapse"
-                        aria-labelledby="heading17"
-                        data-bs-parent="#accordionExample"
-                      >
-                        <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus odiopl
-                          himenaeos. Praesent nec neque at dolor venenatis
-                          consectetur eu quis ex. the Donec lacinia andal
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsum. sovo Praesent
-                          commodo at massa eget suscipit. Utani vitae enim
-                          velit.
-                        </div>
-                      </div>
-                    </div>
-                    <div className="accordion-item">
-                      <span className="accordion-header" id="heading18">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse18"
-                          aria-expanded="false"
-                          aria-controls="collapse18"
-                        >
-                          06. Why is this important? Why will users benefit from
-                          solving this?
-                        </button>
-                      </span>
-                      <div
-                        id="collapse18"
-                        className="accordion-collapse collapse"
-                        aria-labelledby="heading18"
-                        data-bs-parent="#accordionExample"
-                      >
-                        <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus odiopl
-                          himenaeos. Praesent nec neque at dolor venenatis
-                          consectetur eu quis ex. the Donec lacinia andal
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsum. sovo Praesent
-                          commodo at massa eget suscipit. Utani vitae enim
-                          velit.
-                        </div>
-                      </div>
-                    </div>
+
                   </div>
                 </div>
               </div>

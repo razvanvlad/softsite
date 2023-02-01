@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import LottieBanner from "../../common/LottieBanner";
-import LottieHeaderAction from '../../common/LottieHeaderAction';
+import LottieBanner from "../../common/lottieBanner";
+import LottieHeaderAction from '../../common/lottieHeaderAction';
 
 function HeroArea() {
     const scrollTop =()=>window.scrollTo({top:0,behavior:"smooth"})

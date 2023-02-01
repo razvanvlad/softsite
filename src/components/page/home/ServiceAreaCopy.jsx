@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "swiper/css/autoplay";
-import WebDesign from "../../common/lottieWebDesign";
+import WebDesign from "../../common/LottieWebDesign";
 import MagazinOnline from "../../common/lottieMagazinOnline";
 import DezvoltareSoftware from "../../common/lottieDezvoltareSoftware";
 // import Swiper core and required modules

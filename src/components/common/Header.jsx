@@ -147,14 +147,13 @@ function Header() {
         
         <div className="nav-right">
           <div className="get-qoute">
-            <div className="cmn-btn-layout-two">
+            <div className="cmn-btn">
               <div className="line-1" />
               <div className="line-2" />
               <Link
-                to={`${process.env.PUBLIC_URL}/contact`}
-                onClick={scrollTop}              >
+                to={`${process.env.PUBLIC_URL}/contact`} onClick={scrollTop}>
                 
-                Ofertă Pachetul Digital          
+                Cerere Ofertă          
               </Link>
             </div>
           </div>

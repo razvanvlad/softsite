@@ -31,7 +31,7 @@ function HeroArea() {
                             <LottieHeaderAction />
                           </div>
                           <div id="lottie-action-text">
-                            Ofertă Pachetul Digital 
+                            Ofertă Pachetul Digital
                             </div>                           
                         </div>     
                       </Link>

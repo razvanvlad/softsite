@@ -32,7 +32,7 @@ function HeroArea() {
                           <LottieHeaderAction />
                           </div>
                           <div id="lottie-action-text">
-                            Portofoliu
+                            Vezi Portofoliu
                           </div>                           
                         </div>     
                       </Link>
@@ -40,7 +40,7 @@ function HeroArea() {
                     <div className="cmn-btn">
                       <div className="line-1" />
                       <div className="line-2" />
-                      <Link to={`${process.env.PUBLIC_URL}/contact`} onClick={scrollTop}>Cere o ofertă</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/contact`} onClick={scrollTop}>Cerere ofertă</Link>
                     </div>
                   </div>
                 </div>

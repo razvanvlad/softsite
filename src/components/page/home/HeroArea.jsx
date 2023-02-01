@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import LottieBannerTest from "../../common/LottieBannerTest";
+import LottieBanner from "../../common/LottieBanner";
 import LottieHeaderAction from '../../common/LottieHeaderAction';
 
 function HeroArea() {
@@ -12,7 +12,7 @@ function HeroArea() {
           <div className="container">
             <div className="row"  id="hero-container">
             <div className="col-lg-6" id="hero-lottie-banner">
-                <LottieBannerTest />
+                <LottieBanner />
                 
               </div>
               <div className="col-lg-6">

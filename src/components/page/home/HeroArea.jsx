@@ -25,7 +25,7 @@ function HeroArea() {
                       <div className="line-1" />
                       <div className="line-2" />
                      
-                      <Link to={`${process.env.PUBLIC_URL}/proiecte`} onClick={scrollTop}> 
+                      <Link to={`${process.env.PUBLIC_URL}/pachet-digital-startup-nation-2022`} onClick={scrollTop}> 
                         <div className="action-container" id="lottie-action-container">
                           <div id="lottie-action">
                             <LottieHeaderAction />

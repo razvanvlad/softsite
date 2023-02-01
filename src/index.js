@@ -9,7 +9,7 @@ import BlogDetails from "./components/page/BlogDetails/BlogDetails";
 import BlogStandard from "./components/page/BlogStandard/BlogStandard";
 import Contact from "./components/page/contact/Contact";
 import ErrorPage from "./components/page/error/ErrorPage";
-import Faq from "./components/page/faq/Faq";
+import PachetDigital from "./components/page/pachet/PachetDigital";
 import HomePageTwo from "./components/page/homepage2/HomePageTwo";
 import Pricing from "./components/page/pricing/Pricing";
 import Project from "./components/page/project/Project";
@@ -160,8 +160,8 @@ function Root() {
         />
         <Route
           exact
-          path={`${process.env.PUBLIC_URL}/intrebari`}
-          component={Faq}
+          path={`${process.env.PUBLIC_URL}/pachet-digital-startup-nation-2022`}
+          component={PachetDigital}
         />
         {/* 
         <Route

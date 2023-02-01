@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import LottieBanner from "../../common/lottieBanner";
-import LottieHeaderAction from '../../common/lottieHeaderAction';
 
 function HeroArea() {
     const scrollTop =()=>window.scrollTo({top:0,behavior:"smooth"})
@@ -29,7 +28,6 @@ function HeroArea() {
                       <Link to={`${process.env.PUBLIC_URL}/proiecte`} onClick={scrollTop}> 
                         <div className="action-container" id="lottie-action-container">
                           <div id="lottie-action">
-                          <LottieHeaderAction />
                           </div>
                           <div id="lottie-action-text">
                             Vezi Portofoliu

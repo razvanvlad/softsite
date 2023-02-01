@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import ContactForm from './ContactForm';
 
 function ContactWrapper() {
   return (
@@ -61,23 +62,7 @@ function ContactWrapper() {
               <div className="col-md-6 col-lg-7">
                 <div className="contact-form wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                   <h3>Formular contact</h3>
-                  <form action="#" method="post">
-                    <div className="row">
-                      <div className="col-12">
-                        <input type="text" name="name" placeholder="Enter your name" />
-                      </div>
-                      <div className="col-md-6">
-                        <input type="email" name="email" placeholder="Enter your email" />
-                      </div>
-                      <div className="col-md-6">
-                        <input type="text" name="subject" placeholder="Subject" />
-                      </div>
-                      <div className="col-12">
-                        <textarea name="message" cols={30} rows={10} placeholder="Your message" defaultValue={""} />
-                        <input type="submit" defaultValue="Send Message" />
-                      </div>
-                    </div>
-                  </form>
+                  <ContactForm />
                 </div>
               </div>
               <div className="col-md-6 col-lg-5 wow animate fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">

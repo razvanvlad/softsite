@@ -17,7 +17,7 @@ function HeroArea() {
               </div>
               <div className="col-lg-6">
                 <div className="hero-content">
-                  <h1>SOFT-URI &amp; SITE-URI<span>SoftSite.ro</span></h1>
+                  <h1>SOFTSITE, <br></br>SOLUȚIA TA PENTRU<span>DIGITALIZARE.</span></h1>
                   <p>Oferim o gamă completă de servicii IT. Vă putem dezvolta website-ul de prezentare și vă putem promova afacerea. Lăsați-ne să ne ocupăm de digitalizarea afacerii tale, pentru a le oferi clienților tăi o experiență cât mai plăcută în vederea interacțiunii cu brandul tău.</p>
 
                   <div className="buttons">

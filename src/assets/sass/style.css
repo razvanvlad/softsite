@@ -1531,7 +1531,7 @@ header {
 
 .hero-content h1 {
   font-weight: 800;
-  font-size: 52px;
+  font-size: 45px;
   text-transform: uppercase;
   color: #E4E4E4;
   margin-bottom: 30px;
@@ -1539,19 +1539,19 @@ header {
 
 @media only screen and (min-width: 1400px) and (max-width: 1699px) {
   .hero-content h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero-content h1 {
-    font-size: 48px;
+    font-size: 35px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero-content h1 {
-    font-size: 40px;
+    font-size: 32px;
   }
 }
 
@@ -1564,7 +1564,7 @@ header {
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .hero-content h1 {
-    font-size: 40px;
+    font-size: 32px;
   }
 }
 

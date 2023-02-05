@@ -1534,7 +1534,7 @@ header {
   font-size: 45px;
   text-transform: uppercase;
   color: #E4E4E4;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1699px) {
@@ -1559,12 +1559,14 @@ header {
   .hero-content h1 {
     font-size: 25px;
     line-height: 42px;
+    text-align: center;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .hero-content h1 {
     font-size: 32px;
+    text-align: center;
   }
 }
 

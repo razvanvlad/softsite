@@ -18,7 +18,7 @@ function HeroArea() {
               <div className="col-lg-6">
                 <div className="hero-content">
                   <h1>SOFTSITE, SOLUȚIA TA <span>PENTRU DIGITALIZARE.</span></h1>
-                  <p>Oferim soluții complete de digitalizare pentru afacerile castigatoare ale Programului StartUp Nation și Femeia Antreprenor.     
+                  <p>&ensp;Oferim soluții complete de digitalizare pentru afacerile castigatoare ale Programului StartUp Nation și Femeia Antreprenor.     
                   Dacă doriți să transformați afacerea dvs. prin intermediul tehnologiei moderne, suntem aici să vă ajutăm.              
                      De la crearea unui site web atractiv și ușor de utilizat la dezvoltarea unui software personalizat, avem o gamă completă de servicii IT la dispoziția dvs.</p>
                    

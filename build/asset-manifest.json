@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.739d843d.css",
+    "main.js": "/static/js/main.19a07b27.js",
+    "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.45690f4345fd0e303e35.svg",
+    "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.675f6734fc707ee98601.svg",
+    "static/media/breadcrumb-bg.jpg": "/static/media/breadcrumb-bg.e682b673721f2d76ac96.jpg",
+    "static/media/bg.png": "/static/media/bg.19bfdc4e473c5997188d.png",
+    "static/media/black-concrete-textured.png": "/static/media/black-concrete-textured.4e3bb3b4d8373bd3e9ac.png",
+    "static/media/footer-bg.png": "/static/media/footer-bg.c81d040ca61ed7167dc6.png",
+    "static/media/fa-solid-900.eot": "/static/media/fa-solid-900.9bbb245e67a133f6e486.eot",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.be9ee23c0c6390141475.ttf",
+    "static/media/widget-content-bg.png": "/static/media/widget-content-bg.605a40bc69716c4d6fab.png",
+    "static/media/subscribe-bg.png": "/static/media/subscribe-bg.0d96fb27ba3871079074.png",
+    "static/media/fa-regular-400.svg": "/static/media/fa-regular-400.0772874aec68f8e76656.svg",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.c1d7432ee75fa194e499.woff",
+    "static/media/fa-brands-400.eot": "/static/media/fa-brands-400.23f19bb08961f37aaf69.eot",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.527940b104eb2ea366c8.ttf",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.a13b815539b49de48d23.woff2",
+    "static/media/fa-solid-900.woff": "/static/media/fa-solid-900.eeccf4f66002c6f2ba24.woff",
+    "static/media/fa-brands-400.woff": "/static/media/fa-brands-400.2285773e6b4b172f07d9.woff",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.1551f4f60c37af51121f.woff2",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.d878b0a6a1144760244f.woff2",
+    "static/media/feature-bg.png": "/static/media/feature-bg.a0f5a6368867797b92a5.png",
+    "static/media/error-bg.png": "/static/media/error-bg.9bb9860fe02e70b9f96d.png",
+    "static/media/fa-regular-400.eot": "/static/media/fa-regular-400.77206a6bb316fa0aded5.eot",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.491974d108fe4002b2aa.ttf",
+    "static/media/fa-regular-400.woff": "/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
+    "index.html": "/index.html",
+    "main.739d843d.css.map": "/static/css/main.739d843d.css.map",
+    "main.19a07b27.js.map": "/static/js/main.19a07b27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.739d843d.css",
+    "static/js/main.19a07b27.js"
+  ]
+}

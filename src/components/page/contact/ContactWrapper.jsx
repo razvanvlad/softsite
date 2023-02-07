@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import ContactForm from './ContactForm';
 
 function ContactWrapper() {
   return (
@@ -33,7 +34,7 @@ function ContactWrapper() {
                     </div>
                     <div className="info">
                       <h3>Phone</h3>
-                      <a href="tel:0040756762169">+40756762169</a>
+                      <a href="tel:0040727999900">+40 727 999 900</a>
                     </div>
                   </div>
                   <div className="single-info">
@@ -42,7 +43,7 @@ function ContactWrapper() {
                     </div>
                     <div className="info">
                       <h3>Email</h3>
-                      <a href="mailto:razvanvladpop@gmail.com">razvanvladpop@gmail.com</a>
+                      <a href="mailto:razvan@softsite.ro">razvan@softsite.ro</a>
                     </div>
                   </div>
                 </div>
@@ -61,23 +62,7 @@ function ContactWrapper() {
               <div className="col-md-6 col-lg-7">
                 <div className="contact-form wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                   <h3>Formular contact</h3>
-                  <form action="#" method="post">
-                    <div className="row">
-                      <div className="col-12">
-                        <input type="text" name="name" placeholder="Enter your name" />
-                      </div>
-                      <div className="col-md-6">
-                        <input type="email" name="email" placeholder="Enter your email" />
-                      </div>
-                      <div className="col-md-6">
-                        <input type="text" name="subject" placeholder="Subject" />
-                      </div>
-                      <div className="col-12">
-                        <textarea name="message" cols={30} rows={10} placeholder="Your message" defaultValue={""} />
-                        <input type="submit" defaultValue="Send Message" />
-                      </div>
-                    </div>
-                  </form>
+                  <ContactForm />
                 </div>
               </div>
               <div className="col-md-6 col-lg-5 wow animate fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">

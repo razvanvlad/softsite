@@ -45,50 +45,56 @@ function Footer(props) {
               </div>
               <div className="col-md-3 col-lg-3 col-xl-3">
                 <div className="footer-widget">
-                  <h4>Our Services</h4>
+                  <h4>Listă Servicii</h4>
                   <ul className="footer-menu">
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>Strategy &amp; Research</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/creare-website`} onClick={scrollTop}>Creare Website</Link>
                     </li>
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>Web Development</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/dezvoltare-software`} onClick={scrollTop}>Dezvoltare Software</Link>
                     </li>
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>Web Solution</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/magazin-online`} onClick={scrollTop}>Magazin Online</Link>
                     </li>
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>Digital Merketing</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/marketing-si-promovare`} onClick={scrollTop}>Marketing și Promovare</Link>
                     </li>
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>App Design</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/gazduire`} onClick={scrollTop}>Găzduire</Link>
                     </li>
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>App Development</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/mentenanta-si-suport`} onClick={scrollTop}>Mentenanță și Suport</Link>
+                    </li>
+                    <li>
+                      <Link to={`${process.env.PUBLIC_URL}/automatizar-rpa`} onClick={scrollTop}>Automatizări RPA</Link>
+                    </li>
+                    <li>
+                      <Link to={`${process.env.PUBLIC_URL}/aplicatie-android-si-ios`} onClick={scrollTop}>Aplicație Android și iOS</Link>
+                    </li>
+                    <li>
+                      <Link to={`${process.env.PUBLIC_URL}/furnizare-echipamente-it`} onClick={scrollTop}>Furnizare Echipamente IT</Link>
                     </li>
                   </ul>
                 </div>
               </div>
               <div className="col-md-3 col-lg-3 col-xl-3">
                 <div className="footer-widget">
-                  <h4>Quick Links</h4>
+                  <h4>Meniu Site</h4>
                   <ul className="footer-menu">
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/about`} onClick={scrollTop}>About Us</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/despre-noi`} onClick={scrollTop}>Despre Noi</Link>
                     </li>
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/service`} onClick={scrollTop}>Services</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/servicii`} onClick={scrollTop}>Servicii</Link>
                     </li>
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/project`} onClick={scrollTop}>Project</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/proiecte`} onClick={scrollTop}>Proiecte</Link>
                     </li>
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/blog`} onClick={scrollTop}>Blog</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/contact`} onClick={scrollTop}>Cariere</Link>
                     </li>
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/contact`} onClick={scrollTop}>Career</Link>
-                    </li>
-                    <li>
-                      <Link to={`${process.env.PUBLIC_URL}/service`} onClick={scrollTop}>Pricing Plan</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/contact`} onClick={scrollTop}>Contact</Link>
                     </li>
                   </ul>
                 </div>
@@ -101,7 +107,7 @@ function Footer(props) {
                       <i className="fas fa-phone-alt" />
                     </div>
                     <div className="phone">
-                      <a href="tel:0040756762169">+40756762169</a>
+                      <a href="tel:0040727999900">+40 727 999 900</a>
                     </div>
                   </div>
                   <div className="office-mail">
@@ -109,7 +115,7 @@ function Footer(props) {
                       <i className="far fa-envelope" />
                     </div>
                     <div className="email">
-                      <a href="mailto:razvanvladpop@gmail.com">razvanvladpop@gmail.com</a>
+                      <a href="mailto:razvan@softsite.ro">razvan@softsite.ro</a>
                     </div>
                   </div>
                   <div className="address">
@@ -117,6 +123,16 @@ function Footer(props) {
                       <i className="fas fa-map-marker-alt" />
                     </div>
                     <p>Strada Nouă 21-25, Nr. 2, Apahida, CJ, România</p>
+                  </div>
+                  <div className="address2">
+                    <div className="address-icon2">                      
+                    </div>                        
+                     <a target="_blank" href="https://anpc.ro/ce-este-sal/"><img src={process.env.PUBLIC_URL + '/img/logo-anpc/placheta_litigii.svg'}  alt="logo-anpc-img" />  </a>
+                  </div>
+                  <div className="address2">
+                    <div className="address-icon2">                      
+                    </div>                        
+                     <a target="_blank" href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=RO"><img src={process.env.PUBLIC_URL + '/img/logo-anpc/placheta_sal.svg'} href="" alt="logo-sal-img" />  </a>
                   </div>
                 </div>
               </div>

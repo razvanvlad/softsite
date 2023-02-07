@@ -411,7 +411,7 @@ video {
     .cmn-btn .line-1:before {
       position: absolute;
       content: "";
-      border: 1px solid #FFFFFF;
+      border: 1px solid #1DEEA8;
       width: 25px;
       opacity: 0.1;
       right: 0;
@@ -423,7 +423,7 @@ video {
     .cmn-btn .line-1:after {
       position: absolute;
       content: "";
-      border: 1px solid #FFFFFF;
+      border: 1px solid #1DEEA8;
       height: 25px;
       opacity: 0.1;
       -webkit-transition: all 0.8s ease-out 0s;
@@ -457,6 +457,113 @@ video {
   .cmn-btn:hover .line-1:after {
     border: 1px solid #000;
     opacity: 0.5; }
+
+/*Common button layout two 2*/
+.cmn-btn-layout-two {
+  position: relative;
+  display: inline-block; }
+  .cmn-btn-layout-two a {
+    position: relative;
+    display: inline-block;
+    background-color: #000000;
+    border-radius: 5px;
+    min-width: 170px;
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    border: 1px solid #000000;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: all 0.8s ease-out 0s;
+    -moz-transition: all 0.8s ease-out 0s;
+    -ms-transition: all 0.8s ease-out 0s;
+    -o-transition: all 0.8s ease-out 0s;
+    transition: all 0.8s ease-out 0s;
+    vertical-align: top; }
+    @media (max-width: 767px) {
+      .cmn-btn-layout-two a {
+        min-width: 140px;
+        font-size: 14px; } }
+    .cmn-btn-layout-two a:after {
+      position: absolute;
+      content: "";
+      display: block;
+      left: 15%;
+      right: -20%;
+      top: -4%;
+      height: 150%;
+      width: 150%;
+      bottom: 0;
+      background: rgb(2,127,217);
+      background: linear-gradient(0deg, rgba(2,127,217,1) 0%, rgba(2,160,208,1) 50%, rgba(7,210,190,1) 100%);
+      transform: skewX(45deg) scale(0, 1);
+      z-index: -1;
+      -webkit-transition: all 0.8s ease-out 0s;
+      -moz-transition: all 0.8s ease-out 0s;
+      -ms-transition: all 0.8s ease-out 0s;
+      -o-transition: all 0.8s ease-out 0s;
+      transition: all 0.8s ease-out 0s; }
+    .cmn-btn-layout-two a:hover {
+      color: #000; }
+      .cmn-btn-layout-two a:hover:after {
+        transform: skewX(45deg) scale(1, 1); }
+  .cmn-btn-layout-two .line-1 {
+    position: absolute;
+    right: 8px;
+    top: 7px;
+    z-index: 2; }
+    .cmn-btn-layout-two .line-1:before {
+      position: absolute;
+      content: "";
+      border: 1px solid #1DEEA8;
+      width: 25px;
+      opacity: 0.1;
+      right: 0;
+      -webkit-transition: all 0.8s ease-out 0s;
+      -moz-transition: all 0.8s ease-out 0s;
+      -ms-transition: all 0.8s ease-out 0s;
+      -o-transition: all 0.8s ease-out 0s;
+      transition: all 0.8s ease-out 0s; }
+    .cmn-btn-layout-two .line-1:after {
+      position: absolute;
+      content: "";
+      border: 1px solid #1DEEA8;
+      height: 25px;
+      opacity: 0.1;
+      -webkit-transition: all 0.8s ease-out 0s;
+      -moz-transition: all 0.8s ease-out 0s;
+      -ms-transition: all 0.8s ease-out 0s;
+      -o-transition: all 0.8s ease-out 0s;
+      transition: all 0.8s ease-out 0s; }
+  .cmn-btn-layout-two .line-2 {
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+    z-index: 2; }
+    .cmn-btn-layout-two .line-2:before {
+      position: absolute;
+      content: "";
+      border: 1px solid #FFFFFF;
+      height: 25px;
+      opacity: 0.1;
+      right: 0px;
+      bottom: -2px; }
+    .cmn-btn-layout-two .line-2:after {
+      position: absolute;
+      content: "";
+      border: 1px solid #FFFFFF;
+      width: 25px;
+      opacity: 0.1;
+      left: 0; }
+  .cmn-btn-layout-two:hover .line-1:before {
+    border: 1px solid #000;
+    opacity: 0.5; }
+  .cmn-btn-layout-two:hover .line-1:after {
+    border: 1px solid #000;
+    opacity: 0.5; }    
+
 
 .mobile-menu-logo {
   display: none; }
@@ -952,7 +1059,7 @@ header {
       margin: 0; }
 
 .cmn-btn.layout-two a {
-  background-color: transparent;
+  background-color: #1DEEA8;
   border: 1px solid #E4E4E4; }
 
 .verticale-social {

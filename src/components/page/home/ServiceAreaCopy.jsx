@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "swiper/css/autoplay";
-import MagazinOnline from "../../common/magazinonline";
+import WebDesign from "../../common/lottieWebDesign";
+import MagazinOnline from "../../common/lottieMagazinOnline";
+import DezvoltareSoftware from "../../common/lottieDezvoltareSoftware";
 // import Swiper core and required modules
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, {
@@ -48,12 +50,12 @@ function ServiceAreaCopy(props) {
             data-wow-duration="1500ms"
           >
             <div className={`${"sec-title"} ${props.white}`}>
-              <span>Servicii SOFTSITE X</span>
-              <h2>Lista Servicii X</h2>
-              <p>
+              <span>Servicii SOFTSITE</span>
+              <h2>Lista Servicii</h2>
+              {/* <p>
               Oferim o gamă completă de servicii IT, noi suntem partenerul firmei tale. Oferim profesionalism
 și seriozitate în orice colaborare. Vă putem dezvolta, automatiza și promova afacerea.
-              </p>
+              </p> */}
             </div>
           </div>
           <Swiper {...serviceSlider} className="swiper services-slider">
@@ -65,13 +67,8 @@ function ServiceAreaCopy(props) {
               >
                 <div className={`${"single-service"} ${props.layoutClass}`}>
                   <span>01</span>
-                  <div className="icon">
-                    <img
-                      src={
-                        process.env.PUBLIC_URL + "/img/icons/service-icon-1.png"
-                      }
-                      alt="service-icon"
-                    />
+                  <div className="lottie-service">
+                    <WebDesign />
                   </div>
                   <h4>Web Design</h4>
                   <p>
@@ -95,9 +92,9 @@ function ServiceAreaCopy(props) {
               >
                 <div className={`${"single-service"} ${props.layoutClass}`}>
                   <span>02</span>
-                  <div className="lottie-service">
-                  <MagazinOnline />
-                  </div>
+                    <div className="lottie-service">
+                      <MagazinOnline />
+                    </div>
                   <h4>Magazin Online</h4>
                   <p>
                   Dezvoltăm împreună o pagină web dedicată vânzării online.
@@ -114,21 +111,16 @@ Folosim platformele: WooCommerce, OpenCart, PrestaShop, Shopify sau Magento 2 sa
                   </div>
                 </div>
               </SwiperSlide>
-              {/* <SwiperSlide
+              <SwiperSlide
                 className="swiper-slide wow animate fadeInUp"
                 data-wow-delay="600ms"
                 data-wow-duration="1500ms"
               >
                 <div className={`${"single-service"} ${props.layoutClass}`}>
                   <span>03</span>
-                  <div className="icon">
-                    <img
-                      src={
-                        process.env.PUBLIC_URL + "/img/icons/service-icon-3.png"
-                      }
-                      alt="service-icon"
-                    />
-                  </div>
+                    <div className="lottie-service">
+                      <DezvoltareSoftware />
+                    </div>
                   <h4>Dezvoltare Software</h4>
                   <p>
                   Dezvoltare Software sau Web App pentru diverse activitatii ale firmei.
@@ -142,7 +134,7 @@ Folosim platformele: WooCommerce, OpenCart, PrestaShop, Shopify sau Magento 2 sa
                     </Link>
                   </div>
                 </div>
-              </SwiperSlide> */}
+              </SwiperSlide>
             </div>
           </Swiper>
           <div className="swiper-button-next" />

@@ -12,8 +12,8 @@ function ServiceCard(props) {
         <h4>{props.title}</h4>
         <p>{props.details}</p>
         <div className="read-btn">
-          <Link to={`${process.env.PUBLIC_URL}/service-details`}>
-            Read More
+          <Link to={`${process.env.PUBLIC_URL}/${props.alt}`}>
+            Detalii Serviciu
           </Link>
         </div>
       </div>

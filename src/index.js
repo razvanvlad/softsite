@@ -9,13 +9,22 @@ import BlogDetails from "./components/page/BlogDetails/BlogDetails";
 import BlogStandard from "./components/page/BlogStandard/BlogStandard";
 import Contact from "./components/page/contact/Contact";
 import ErrorPage from "./components/page/error/ErrorPage";
-import Faq from "./components/page/faq/Faq";
+import PachetDigital from "./components/page/pachet/PachetDigital";
 import HomePageTwo from "./components/page/homepage2/HomePageTwo";
 import Pricing from "./components/page/pricing/Pricing";
 import Project from "./components/page/project/Project";
 import ProjectDetails from "./components/page/ProjectDetails/ProjectDetails";
 import Service from "./components/page/service/Service";
-import ServiceDetails from "./components/page/ServiceDetails/ServiceDetails";
+import CreareWebsite from "./components/page/ServiceDetails/CreareWebsite";
+import DezvoltareSoftware from "./components/page/ServiceDetails/DezvoltareSoftware";
+import MagazinOnline from "./components/page/ServiceDetails/MagazinOnline";
+import MarketingPromovare from "./components/page/ServiceDetails/MarketingPromovare";
+import DesignGrafic from "./components/page/ServiceDetails/DesignGrafic"; 
+import Gazduire from "./components/page/ServiceDetails/Gazduire";
+import Mentenanta from "./components/page/ServiceDetails/Mentenanta";
+import AutomatizariRpa from "./components/page/ServiceDetails/AutomatizariRpa";
+import AplicatieAndroidIos from "./components/page/ServiceDetails/AplicatieAndroidIos";
+import EchipamenteIt from "./components/page/ServiceDetails/EchipamenteIt";
 import Team from "./components/page/team/Team";
 import "./index.css"
 
@@ -81,8 +90,53 @@ function Root() {
         />
         <Route
           exact
-          path={`${process.env.PUBLIC_URL}/detalii-serviciu`}
-          component={ServiceDetails}
+          path={`${process.env.PUBLIC_URL}/creare-website`}
+          component={CreareWebsite}
+        />
+        <Route
+          exact
+          path={`${process.env.PUBLIC_URL}/dezvoltare-software`}
+          component={DezvoltareSoftware}
+        />
+        <Route
+          exact
+          path={`${process.env.PUBLIC_URL}/magazin-online`}
+          component={MagazinOnline}
+        />
+        <Route
+          exact
+          path={`${process.env.PUBLIC_URL}/marketing-si-promovare`}
+          component={MarketingPromovare} 
+        />
+        <Route
+          exact
+          path={`${process.env.PUBLIC_URL}/design-grafic`}
+          component={DesignGrafic}
+        />
+        <Route
+          exact
+          path={`${process.env.PUBLIC_URL}/gazduire`}
+          component={Gazduire}
+        />
+        <Route
+          exact
+          path={`${process.env.PUBLIC_URL}/mentenanta-si-suport`}
+          component={Mentenanta}
+        />
+        <Route
+          exact
+          path={`${process.env.PUBLIC_URL}/automatizari-rpa`}
+          component={AutomatizariRpa}
+        />
+        <Route
+          exact
+          path={`${process.env.PUBLIC_URL}/aplicatie-android-si-ios`}
+          component={AplicatieAndroidIos}
+        />
+        <Route
+          exact
+          path={`${process.env.PUBLIC_URL}/furnizare-echipamente-it`}
+          component={EchipamenteIt}
         />
         <Route
           exact
@@ -106,8 +160,8 @@ function Root() {
         />
         <Route
           exact
-          path={`${process.env.PUBLIC_URL}/intrebari`}
-          component={Faq}
+          path={`${process.env.PUBLIC_URL}/pachet-digital-startup-nation-2022`}
+          component={PachetDigital}
         />
         {/* 
         <Route

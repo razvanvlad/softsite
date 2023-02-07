@@ -14,12 +14,12 @@ function Breadcrumb(props) {
                 <div className="breadcrumb-cnt">
                   <h1>{props.pageTitle}</h1>
                   <span><Link to={`${process.env.PUBLIC_URL}/`} >Acasă</Link><i className="bi bi-arrow-right" />{props.pageName}</span>
-                  <div className="breadcrumb-video">
+                  {/* <div className="breadcrumb-video">
                     <img src={process.env.PUBLIC_URL + '/img/breadcrumb-video.jpg'} alt="breadcrumbImg" />
                     <div className="video-inner">
                       <div className="video-popup" onClick={()=>setOpen(true)}><i className="fas fa-play" /></div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

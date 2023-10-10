@@ -122,7 +122,13 @@ function Footer(props) {
                     <div className="address-icon">
                       <i className="fas fa-map-marker-alt" />
                     </div>
-                    <p>Strada Nouă 21-25, Nr. 2, Apahida, CJ, România</p>
+                    <p>Transilvaniei 1, Baia Mare, MM, România</p>
+                  </div>
+                  <div className="address">
+                    <div className="address-icon">
+                      <i className="fas fa-map-marker-alt" />
+                    </div>
+                    <p>I. P. Voitești 2-4, Cluj Napoca, CJ, România</p>
                   </div>
                   <div className="address2">
                     <div className="address-icon2">                      

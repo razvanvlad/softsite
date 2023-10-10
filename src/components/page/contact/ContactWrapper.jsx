@@ -24,8 +24,8 @@ function ContactWrapper() {
                     </div>
                     <div className="info">
                       <h3>Locație</h3>
-                      <p>Strada Transilvaniei 1/64, Baia Mare, MM, Romania</p>
-                      <p>Strada Nouă 21-25, Nr. 2, Apahida, CJ, România</p>
+                      <p>Transilvaniei 1, Baia Mare, MM, România</p>
+                      <p>I. P. Voitești 2-4, Cluj Napoca, CJ, România</p>
                     </div>
                   </div>
                   <div className="single-info">

@@ -1,0 +1,4 @@
+
+AddType application/wasm .wasm
+RewriteEngine On
+RewriteRule ^$ build/ [L]
